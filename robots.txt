@@ -1,0 +1,371 @@
+User-agent: *
+Disallow: /cgi-bin/
+Allow: https://www.goldenresource.co
+Allow: https://www.goldenresource.co/index.html
+Allow: https://www.goldenresource.co/Golden-Resource-Profile.html
+Allow: https://www.goldenresource.co/Golden-Resource-Website-Designing.html
+Allow: https://www.goldenresource.co/Golden-Resource-Ecommerce-Websites.html
+Allow: https://www.goldenresource.co/Golden-Resource-CRM-applications.html
+Allow: https://www.goldenresource.co/Golden-Resource-CCTV-Surveillance.html
+Allow: https://www.goldenresource.co/Golden-Resource-Website-AMC.html
+Allow: https://www.goldenresource.co/Golden-Resource-Digital-Marketing.html
+Allow: https://www.goldenresource.co/Golden-Resource-Social-Media-Marketing.html
+Allow: https://www.goldenresource.co/Golden-Resource-EBrochures.html
+Allow: https://www.goldenresource.co/Golden-Resource-Domain-Hosting.html
+Allow: https://www.goldenresource.co/Golden-Resource-Blog.html
+Allow: https://www.goldenresource.co/Contact-Golden-Resource.html
+Allow: https://www.goldenresource.co/Golden-Resource-SCHOOL.html
+Allow: https://www.goldenresource.co/Golden-Resource-REAL-ESTATE.html
+Allow: https://www.goldenresource.co/Golden-Resource-Privacy-Policy.html
+Allow: https://www.goldenresource.co/Golden-Resource-PDF-Profile-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-logo-Designing-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-HRM.html
+Allow: https://www.goldenresource.co/Golden-Resource-Web-Designing-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-FAQ.html
+Allow: https://www.goldenresource.co/Golden-Resource-CRM.html
+Allow: https://www.goldenresource.co/Golden-Resource-Clients.html
+Allow: https://www.goldenresource.co/Golden-Resource-Careers.html
+
+User-agent: Googlebot
+Allow: .js
+Allow: .css
+Allow: .html
+Allow: .json
+Allow: .scss
+Allow: https://www.goldenresource.co
+Allow: https://www.goldenresource.co/index.html
+Allow: https://www.goldenresource.co/Golden-Resource-Profile.html
+Allow: https://www.goldenresource.co/Golden-Resource-Website-Designing.html
+Allow: https://www.goldenresource.co/Golden-Resource-Ecommerce-Websites.html
+Allow: https://www.goldenresource.co/Golden-Resource-CRM-applications.html
+Allow: https://www.goldenresource.co/Golden-Resource-CCTV-Surveillance.html
+Allow: https://www.goldenresource.co/Golden-Resource-Website-AMC.html
+Allow: https://www.goldenresource.co/Golden-Resource-Digital-Marketing.html
+Allow: https://www.goldenresource.co/Golden-Resource-Social-Media-Marketing.html
+Allow: https://www.goldenresource.co/Golden-Resource-EBrochures.html
+Allow: https://www.goldenresource.co/Golden-Resource-Domain-Hosting.html
+Allow: https://www.goldenresource.co/Golden-Resource-Blog.html
+Allow: https://www.goldenresource.co/Contact-Golden-Resource.html
+Allow: https://www.goldenresource.co/Golden-Resource-SCHOOL.html
+Allow: https://www.goldenresource.co/Golden-Resource-REAL-ESTATE.html
+Allow: https://www.goldenresource.co/Golden-Resource-Privacy-Policy.html
+Allow: https://www.goldenresource.co/Golden-Resource-PDF-Profile-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-logo-Designing-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-HRM.html
+Allow: https://www.goldenresource.co/Golden-Resource-Web-Designing-Portfolio.html
+Allow: https://www.goldenresource.co/Golden-Resource-FAQ.html
+Allow: https://www.goldenresource.co/Golden-Resource-CRM.html
+Allow: https://www.goldenresource.co/Golden-Resource-Clients.html
+Allow: https://www.goldenresource.co/Golden-Resource-Careers.html
+
+User-agent: Robots
+Allow: .js
+Allow: .css
+Allow: .html
+Allow: .json
+Allow: .scss
+Allow: https://www.goldenresource.co
+Allow: https://www.goldenresource.co/index.html
+
+
+Sitemap: https://www.goldenresource.co/sitemap.xml
+
+Allow: SEO-PowerSuite-bot
+Allow: Googlebot
+
+User-agent: googlebot-image
+Disallow: 
+
+User-agent: googlebot-mobile
+Disallow: 
+
+User-agent: EtaoSpider
+Disallow: /
+
+User-agent: trovitBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: seoengbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Mail.Ru
+Disallow: /
+
+User-agent: careerbot
+Disallow: /
+
+User-agent: wotbox
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /
+
+User-agent: CompSpyBot
+Disallow: /
+
+User-agent: ShopWiki
+Disallow: /
+
+User-agent: ZumBot
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: oBot
+Disallow: /
+
+User-agent: ChangeDetection
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Ezooms
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-agent: grapeshot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Blekkobot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: SiteExplorer
+Disallow: /
+
+User-agent: adbeat_bot
+Disallow: /
+
+User-agent: peerindex
+Disallow: /
+
+User-agent: genieo
+Disallow: /
+
+User-agent: www.integromedb.org/Crawler
+Disallow: /
+
+User-agent: QuerySeekerSpider
+Disallow: /
+
+User-agent: EasouSpider
+Disallow: /
+
+User-agent: Kraken/0.1
+Disallow: /
+
+User-agent: Steeler
+Disallow: /
+
+User-agent: Flipboard
+Disallow: /
+
+User-agent: IstellaBot
+Disallow: /
+
+User-agent: coccoc
+Disallow: /
+
+User-agent: BDCbot
+Disallow: /
+
+User-agent: Zenbot
+Disallow: /
+
+User-agent: WBSearchBot
+Disallow: /
+
+User-agent: MemoryBot
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: SputnikBot
+Disallow: /
+
+User-agent: JoobleBot
+Disallow: /
+
+User-agent: SurveyBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: SearchmetricsBot
+Disallow: /
+
+User-agent: CrazyWebCrawler
+Disallow: /
+
+User-agent: BacklinkCrawler
+Disallow: /
+
+User-agent: XoviBot
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+User-agent: meanpathbot
+Disallow: /
+
+User-agent: Riddler
+Disallow: /
+
+User-agent: SMTBot
+Disallow: /
+
+User-agent: netseer
+Disallow: /
+
+User-agent: Aboundexbot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: daumoa
+Disallow: /
+
+User-agent: SurdotlyBot
+Disallow: /
+
+User-agent: ZnajdzFoto
+Disallow: /
+
+User-agent: JamesBOT
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GriffinBot
+Disallow: /
+
+User-agent: DeuSu
+Disallow: /
+
+User-agent: FatBot
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: aiHitBot
+Disallow: /
+
+User-agent: 8LEGS
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+User-agent: FemtosearchBot
+Disallow: /
+
+User-agent: BuckyOHare
+Disallow: /
+
+User-agent: SemanticScholarBot
+Disallow: /
+
+User-agent: BaiduSpider
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: AlphaSeoBot
+Disallow: /
+
+User-agent: AlphaSeoBot-SA
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: Linguee
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: AspiegelBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: trendictionbot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: Linespider
+Disallow: /
+
+User-agent: adsbot
+Disallow: /
+
+User-agent: Neevabot
+Disallow: /
+
+User-agent: barkrowler
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-Delay: 2
+
+# robots.txt
+Sitemap: https://www.goldenresource.co/sitemap.xml

@@ -1,0 +1,4619 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'), url('fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'), url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url('fonts/Roboto-Medium.woff2') format('woff2'), url('fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url('fonts/Roboto-Light.woff2') format('woff2'), url('fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url('fonts/Graphik-Regular.eot');
+    src: local('fonts/Graphik Regular'), local('Graphik-Regular'), url('fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Graphik-Regular.woff2') format('woff2'), url('fonts/Graphik-Regular.woff') format('woff'), url('fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik-Extralight;
+    src: url('fonts/Graphik-Extralight.eot');
+    src: local('fonts/Graphik Extralight'), local('Graphik-Extralight'), url('fonts/Graphik-Extralight.eot?#iefix') format('embedded-opentype'), url('fonts/Graphik-Extralight.woff2') format('woff2'), url('fonts/Graphik-Extralight.woff') format('woff'), url('fonts/Graphik-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik-Light;
+    src: url('fonts/Graphik-Light.eot');
+    src: local('fonts/Graphik Light'), local('Graphik-Light'), url('fonts/Graphik-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Graphik-Light.woff2') format('woff2'), url('fonts/Graphik-Light.woff') format('woff'), url('fonts/Graphik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Graphik-Regular;
+    font-size: 15px;
+    color: #494949;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: normal
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0
+}
+
+button:focus {
+    outline: 0
+}
+
+@media (min-width:1024px) {
+    .hback {
+        background-color: trasparent;
+        z-index: 999;
+        position: absolute;
+        width: 100%
+    }
+}
+
+.fluid0 {
+    padding: 0;
+    margin: 0
+}
+
+.container0 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.breadcrumb {
+    background: 0 0 !important
+}
+
+.breadcrumb-item,
+.breadcrumb-item a {
+    font-family: RobotoRegular;
+    font-size: 13px;
+    color: #494949;
+    text-transform: uppercase
+}
+
+.breadcrumb .active {
+    color: #848282 !important
+}
+
+.hidelinks123 {
+    display: none
+}
+
+.paddingbottom {
+    padding-bottom: 30px
+}
+
+.bgwhite {
+    background-color: #fff
+}
+
+.bggray {
+    background-color: #f0f0f0
+}
+
+.bgblue {
+    background-color: #273b63
+}
+
+.bottombackground {
+    background: linear-gradient(to left, #121c34 50%, #203155 50%)
+}
+
+.bottombackgroundmob {
+    background: linear-gradient(to left, #1b2949 50%, #203155 50%)
+}
+
+.bgbottomblue1 {
+    background-color: #203155
+}
+
+.bgbottomblue2 {
+    background-color: #1b2949
+}
+
+.bgbottomblue3 {
+    background-color: #16223e
+}
+
+.bgbottomblue4 {
+    background-color: #121c34
+}
+
+.bottomcopybg {
+    background-color: #0f182c
+}
+
+.bgdblue {
+    background-color: #0181cc
+}
+
+.bgpgreen {
+    background-color: #49c9cc
+}
+
+.bgportgray {
+    background-color: #cfd3d3
+}
+
+.bglgray {
+    background-color: #dfdfdf
+}
+
+.ttopcontacts {
+    font-family: Graphik-Regular;
+    color: #494949;
+    font-size: 16px
+}
+
+.showme {
+    display: none
+}
+
+.showhim:hover .showme {
+    display: flex
+}
+
+.showhim:hover .ok {
+    display: none
+}
+
+.menuwidth {
+    width: 750px
+}
+
+.menuwidth01 {
+    width: 450px
+}
+
+.iconwidth {
+    max-width: 100%
+}
+
+.tciberps {
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    clear: both;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Graphik-Regular;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 0;
+    margin: 10px 10px 5px 0
+}
+
+.tciberschool {
+    color: #f66662 !important
+}
+
+.tcibercrm {
+    color: #a14b69 !important
+}
+
+.tciberhrm {
+    color: #4dc9b1 !important
+}
+
+.tciberre {
+    color: #b5cd41 !important
+}
+
+.tciberwd {
+    color: #896fa9 !important
+}
+
+.tcibercom {
+    color: #37b4a6 !important
+}
+
+.tcibercrm1 {
+    color: #ff7d73 !important
+}
+
+.goldenresourcecctv1 {
+    color: #6fa8a8 !important
+}
+
+.tciberamc {
+    color: #2c6fd4 !important
+}
+
+.tciberseo {
+    color: #000000 !important
+}
+
+.tciberpdf {
+    color: #dc5371 !important
+}
+
+.tciberhos {
+    color: #66375b !important
+}
+
+.tciberportfolio {
+    color: #ec6289 !important
+}
+
+.tciberportfolio02 {
+    color: #9272b9 !important
+}
+
+.tciberportfolio03 {
+    color: #38bdad !important
+}
+
+.twelcomehead {
+    font-family: Graphik-Regular;
+    color: #494949;
+    font-size: 48px
+}
+
+.twelcomesubhead {
+    font-family: Graphik-Extralight;
+    color: #494949;
+    font-size: 48px
+}
+
+.twelcometext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 21px;
+    line-height: 34px
+}
+
+.twelcometextblue {
+    font-family: Graphik-Regular;
+    color: #25b1e6;
+    font-size: 21px;
+    line-height: 34px
+}
+
+.aboutustextbg {
+    background-repeat: no-repeat;
+    background-image: url('webimg/aboutustext.png');
+    background-position: right center;
+    background-size: fixed;
+    margin-top: -80px
+}
+
+.aboutustopup {
+    position: relative;
+    z-index: 1;
+    margin-top: -210px
+}
+
+.servicesbg {
+    background-repeat: no-repeat;
+    background-image: url('webimg/servicestextbg.png');
+    background-position: right top;
+    background-size: fixed
+}
+
+.servicestopup {
+    position: relative;
+    z-index: 1;
+    margin-top: -288px
+}
+
+.tserviceshead {
+    font-family: Graphik-Regular;
+    color: #494949;
+    font-size: 48px
+}
+
+.tservicessubhead {
+    font-family: Graphik-Extralight;
+    color: #494949;
+    font-size: 48px
+}
+
+.tservicestext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 21px;
+    line-height: 34px
+}
+
+.bgyellow {
+    background-color: #fffacc
+}
+
+.servicesbg01 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services01.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead01 {
+    font-family: Graphik-Light;
+    color: #60521c;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead01 {
+    font-family: Graphik-Extralight;
+    color: #60521c;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext01 {
+    font-family: Graphik-Light;
+    color: #61511d;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext01 {
+    font-family: Graphik-Light;
+    color: #61511d;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.bggreen {
+    background-color: #dcf8df
+}
+
+.servicesbg02 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services02.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead02 {
+    font-family: Graphik-Light;
+    color: #445f49;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead02 {
+    font-family: Graphik-Extralight;
+    color: #445f49;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext02 {
+    font-family: Graphik-Light;
+    color: #445f49;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext02 {
+    font-family: Graphik-Light;
+    color: #455f49;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.bglavender {
+    background-color: #d7e1f9
+}
+
+.servicesbg03 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services03.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead03 {
+    font-family: Graphik-Light;
+    color: #4a556e;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead03 {
+    font-family: Graphik-Extralight;
+    color: #4a556e;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext03 {
+    font-family: Graphik-Light;
+    color: #49556f;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext03 {
+    font-family: Graphik-Light;
+    color: #49556f;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.bgpink {
+    background-color: #ffd7d7
+}
+
+.servicesbg04 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services04.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead04 {
+    font-family: Graphik-Light;
+    color: #8c5d5d;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead04 {
+    font-family: Graphik-Extralight;
+    color: #8c5d5d;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext04 {
+    font-family: Graphik-Light;
+    color: #8c5d5d;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext04 {
+    font-family: Graphik-Light;
+    color: #8c5d5d;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.bgviolet {
+    background-color: #f3e4fb
+}
+
+.servicesbg05 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services05.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead05 {
+    font-family: Graphik-Light;
+    color: #69337f;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead05 {
+    font-family: Graphik-Extralight;
+    color: #69337f;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext05 {
+    font-family: Graphik-Light;
+    color: #69337f;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext05 {
+    font-family: Graphik-Light;
+    color: #69337f;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.bgorange {
+    background-color: #ffcfb7
+}
+
+.servicesbg06 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/services06.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tserhead06 {
+    font-family: Graphik-Light;
+    color: #6b4646;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubhead06 {
+    font-family: Graphik-Extralight;
+    color: #6b4646;
+    font-size: 38px;
+    line-height: 28px
+}
+
+.tsersubtext06 {
+    font-family: Graphik-Light;
+    color: #725344;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.tsertext06 {
+    font-family: Graphik-Light;
+    color: #754f4d;
+    font-size: 19px;
+    line-height: 28px
+}
+
+.come-in {
+    transform: translateY(350px);
+    animation: come-in 1.9s ease forwards
+}
+
+.come-in:nth-child(odd) {
+    animation-duration: 1.9s
+}
+
+.already-visible {
+    transform: translateY(0);
+    animation: none
+}
+
+@keyframes come-in {
+    to {
+        transform: translateY(0)
+    }
+}
+
+.portfoliobg {
+    background-repeat: no-repeat;
+    background-image: url('webimg/portfoliotextbg.png');
+    background-position: right bottom;
+    background-size: fixed
+}
+
+.tportfoliohead {
+    font-family: Graphik-Regular;
+    color: #494949;
+    font-size: 48px
+}
+
+.tportfoliosubhead {
+    font-family: Graphik-Extralight;
+    color: #494949;
+    font-size: 48px
+}
+
+.tportfoliotext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 21px;
+    line-height: 34px
+}
+
+.twhychoosehead {
+    font-family: Graphik-Regular;
+    color: #494949;
+    font-size: 48px
+}
+
+.twhychoosegtext {
+    font-family: Graphik-light;
+    color: #494949;
+    font-size: 23px
+}
+
+.t1whychoosesubhead {
+    font-family: Graphik-Extralight;
+    color: #494949;
+    font-size: 48px
+}
+
+.twhychoosesubhead {
+    font-family: Graphik-light;
+    color: #000;
+    font-size: 23px
+}
+
+.twhychoosetext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 18px;
+    line-height: 28px
+}
+
+.whychooseline {
+    background-repeat: no-repeat;
+    background-image: url('webimg/line.png');
+    background-position: right top;
+    background-size: fixed;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.whychooseline01 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/line.png');
+    background-position: right top;
+    background-size: fixed;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.aboutusbgin {
+    background-repeat: no-repeat;
+    background-image: url('webimg/aboutustextin.png');
+    background-position: right center;
+    background-size: fixed
+}
+
+.theading {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 48px;
+    line-height: 28px
+}
+
+.theadingsub {
+    font-family: Graphik-Extralight;
+    color: #fff;
+    font-size: 48px;
+    line-height: 28px
+}
+
+.ttextwhite {
+    font-family: Graphik-Light;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.ttext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 20px;
+    line-height: 32px;
+    z-index: 5;
+    position: relative
+}
+
+.ttextblue {
+    font-family: Graphik-Light;
+    color: #009dd4;
+    font-size: 20px;
+    line-height: 32px;
+    z-index: 5;
+    position: relative
+}
+
+.ulpadding {
+    padding-left: 24px
+}
+
+.ulpadding01 {
+    padding-left: 24px
+}
+
+.arrowtopup {
+    position: relative;
+    z-index: 1;
+    margin-top: -50px
+}
+
+.tarrow01 {
+    color: #fff;
+    font-size: 24px;
+    line-height: normal
+}
+
+.vertical-line01 {
+    display: inline-block;
+    border-left: 1px solid #fff;
+    margin: 0;
+    height: 17px
+}
+
+.linetopup {
+    position: relative;
+    z-index: 1;
+    margin-top: -188px
+}
+
+.servicesbginn01 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/websitedesigning.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.verticalline01 {
+    display: inline-block;
+    border-left: 1px solid #6555df;
+    margin: 0;
+    height: 250px
+}
+
+.tserheadinn01 {
+    font-family: Graphik-Light;
+    color: #60521c;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tserheadinn100 {
+    font-family: Graphik-Light;
+    color: #60521c;
+    font-size: 28px;
+    line-height: normal
+}
+
+.tsersubheadinn01 {
+    font-family: Graphik-Extralight;
+    color: #60521c;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn01 {
+    font-family: Graphik-Regular;
+    color: #61511d;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser01 {
+    list-style-image: url('webimg/ulser01.png')
+}
+
+.portfoliobutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #494949;
+    background-color: #fffacc;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #61511d
+}
+
+.portfoliobutton:hover {
+    background-color: #61511d !important;
+    border-color: #61511d;
+    color: #f0f0f0
+}
+
+.bgdgreen {
+    background-color: #455f4a
+}
+
+.servicesbginn02 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/ecommerce.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn02 {
+    font-family: Graphik-Light;
+    color: #445f49;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn02 {
+    font-family: Graphik-Extralight;
+    color: #445f49;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn02 {
+    font-family: Graphik-Regular;
+    color: #dbf7df;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tsersubbheadinn02-1 {
+    font-family: Graphik-Regular;
+    color: #455f49;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser02 {
+    list-style-image: url('webimg/ulser02.png')
+}
+
+.ulser02-1 {
+    list-style-image: url('webimg/ulser02-1.png')
+}
+
+.ecommercebutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #494949;
+    background-color: #dcf8df;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #445f49
+}
+
+.ecommercebutton:hover {
+    background-color: #445f49 !important;
+    border-color: #445f49;
+    color: #f0f0f0
+}
+
+.ttextgreen {
+    font-family: Graphik-Light;
+    color: #dbf7df;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.tsersubbheadinn202 {
+    font-family: Graphik-Regular;
+    color: #455f49;
+    font-size: 33px;
+    line-height: normal
+}
+
+.servicesline02 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/line03-1.png');
+    background-position: center right;
+    background-size: fixed
+}
+
+.portfoliobutton02 {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #494949;
+    background-color: #dcf8df;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #445f49
+}
+
+.portfoliobutton02:hover {
+    background-color: #445f49 !important;
+    border-color: #445f49;
+    color: #f0f0f0
+}
+
+.bgdviolet {
+    background-color: #69337f
+}
+
+.servicesbginn03 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/amc.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn03 {
+    font-family: Graphik-Light;
+    color: #69337f;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn03 {
+    font-family: Graphik-Extralight;
+    color: #69337f;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn03 {
+    font-family: Graphik-Regular;
+    color: #f3e4fb;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser03 {
+    list-style-image: url('webimg/ulser03.png')
+}
+
+.ttextviolet {
+    font-family: Graphik-Light;
+    color: #f3e4fb;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.bgdlavender {
+    background-color: #4a556e
+}
+
+.servicesbginn04 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/seo.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn04 {
+    font-family: Graphik-Light;
+    color: #4a556e;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn04 {
+    font-family: Graphik-Extralight;
+    color: #4a556e;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn04 {
+    font-family: Graphik-Regular;
+    color: #4a556e;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser04 {
+    list-style-image: url('webimg/ulser04.png')
+}
+
+.ttextlavender {
+    font-family: Graphik-Light;
+    color: #d7e1f9;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.bgsocialmedia {
+    background-color: #4a556e
+}
+
+.servicesbginn100 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/servicesbginn100.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tblogmainhead {
+    font-family: Graphik-Light;
+    color: #0f182c;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tblogsubhead {
+    font-family: Graphik-Regular;
+    color: #203155;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tbloghead {
+    font-family: Graphik-Light;
+    color: #60521c;
+    font-size: 25px;
+    line-height: normal
+}
+
+.blogwebsitebutton {
+    font-family: Graphik-Light;
+    font-size: 17px;
+    color: #fff;
+    background-color: #b189e1;
+    border-radius: 25px;
+    padding: 3px 25px 3px 25px
+}
+
+.blogsmmbutton {
+    font-family: Graphik-Light;
+    font-size: 17px;
+    color: #fff;
+    background-color: #ff416d;
+    border-radius: 25px;
+    padding: 3px 25px 3px 25px
+}
+
+.blogbutton {
+    font-family: Graphik-Light;
+    font-size: 17px;
+    color: #fff;
+    background-color: #b189e1;
+    border-radius: 25px;
+    padding: 3px 25px 3px 25px
+}
+
+.ttextdblue {
+    font-family: Graphik-Light;
+    color: #007bff;
+    font-size: 20px;
+    line-height: 32px;
+    z-index: 5;
+    position: relative
+}
+
+.tblogreadmore {
+    font-family: Graphik-Light;
+    font-size: 14px;
+    color: #fff;
+    background-color: #01adef;
+    border-radius: 25px;
+    padding: 5px 15px 3px 15px
+}
+
+.tblogreadmore:hover {
+    color: #fff;
+    background-color: #494949
+}
+
+.tblogdate {
+    font-family: Graphik-Light;
+    color: #01adef;
+    font-size: 16px;
+    line-height: normal
+}
+
+.viewblogbutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #494949;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #494949
+}
+
+.viewblogbutton:hover {
+    background-color: #494949 !important;
+    border-color: #494949;
+    color: #f0f0f0
+}
+
+.bgdorange {
+    background-color: #6b4646
+}
+
+.servicesbginn05 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/ebrochures.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn05 {
+    font-family: Graphik-Light;
+    color: #6b4646;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn05 {
+    font-family: Graphik-Extralight;
+    color: #6b4646;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn05 {
+    font-family: Graphik-Regular;
+    color: #6b4646;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser05 {
+    list-style-image: url('webimg/ulser05.png')
+}
+
+.ttextorange {
+    font-family: Graphik-Light;
+    color: #ffcfb7;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.servicesbginn06 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/hosting.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn06 {
+    font-family: Graphik-Light;
+    color: #8c5d5d;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn06 {
+    font-family: Graphik-Extralight;
+    color: #8c5d5d;
+    font-size: 48px;
+    line-height: normal
+}
+
+.ulser06 {
+    list-style-image: url('webimg/ulser06.png')
+}
+
+.tsersubbheadinn06 {
+    font-family: Graphik-Regular;
+    color: #8c5d5d;
+    font-size: 33px;
+    line-height: normal
+}
+
+.bgcrm {
+    background-color: #cdedf8
+}
+
+.bgcrmblue {
+    background-color: #779be3
+}
+
+.servicesbginn07 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/crm.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn07 {
+    font-family: Graphik-Light;
+    color: #706d60;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn07 {
+    font-family: Graphik-Extralight;
+    color: #706d60;
+    font-size: 48px;
+    line-height: normal
+}
+
+.ulser07 {
+    list-style-image: url('webimg/ulser07.png')
+}
+
+.tsersubbheadinn07 {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 33px;
+    line-height: normal
+}
+
+.bgred {
+    background-color: #ffeded
+}
+
+.bgdred {
+    background-color: #f38184
+}
+
+.servicesbginn08 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/goldenresourceschool.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tsersubbheadinn08 {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tsersubbheadinn08-1 {
+    font-family: Graphik-Regular;
+    color: #f38184;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser08 {
+    list-style-image: url('webimg/ulser08.png')
+}
+
+.ulser08-1 {
+    list-style-image: url('webimg/ulser08-1.png')
+}
+
+.bgmagenta {
+    background-color: #f5e2ea
+}
+
+.bgdmagenta {
+    background-color: #9f355d
+}
+
+.servicesbginn09 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/cibercrm01.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn09 {
+    font-family: Graphik-Light;
+    color: #9f355d;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn09 {
+    font-family: Graphik-Extralight;
+    color: #9f355d;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn09 {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tsersubbheadinn09-1 {
+    font-family: Graphik-Regular;
+    color: #9f355d;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser09 {
+    list-style-image: url('webimg/ulser09.png')
+}
+
+.bghrmgreen {
+    background-color: #e8fffc
+}
+
+.bgdhrmgreen {
+    background-color: #00ad97
+}
+
+.servicesbginn10 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/goldenresourcehrm.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn10 {
+    font-family: Graphik-Light;
+    color: #00ad97;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn10 {
+    font-family: Graphik-Extralight;
+    color: #00ad97;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn10 {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tsersubbheadinn10-1 {
+    font-family: Graphik-Regular;
+    color: #00ad97;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser10 {
+    list-style-image: url('webimg/ulser10.png')
+}
+
+.ulser10-1 {
+    list-style-image: url('webimg/ulser10-1.png')
+}
+
+.bgregreen {
+    background-color: #f3f7df
+}
+
+.servicesbginn11 {
+    background-repeat: no-repeat;
+    background-image: url('webimg/goldenresourcerealestate.jpg');
+    background-position: left center;
+    background-size: 45%
+}
+
+.tserheadinn11 {
+    font-family: Graphik-Light;
+    color: #b0cb36;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubheadinn11 {
+    font-family: Graphik-Extralight;
+    color: #b0cb36;
+    font-size: 48px;
+    line-height: normal
+}
+
+.tsersubbheadinn11 {
+    font-family: Graphik-Regular;
+    color: #b0cb36;
+    font-size: 33px;
+    line-height: normal
+}
+
+.tsersubbheadinn11-1 {
+    font-family: Graphik-Regular;
+    color: #b0cb36;
+    font-size: 33px;
+    line-height: normal
+}
+
+.ulser11 {
+    list-style-image: url('webimg/ulser11.png')
+}
+
+.tportfolioheading {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 48px
+}
+
+.tportfoliosubheading {
+    font-family: Graphik-Extralight;
+    color: #fff;
+    font-size: 48px
+}
+
+.tportfoliotextp {
+    font-family: Graphik-Light;
+    color: #fff;
+    font-size: 22px
+}
+
+.tportfoliotext {
+    font-family: Graphik-Light;
+    color: #494949;
+    font-size: 16px;
+    line-height: 32px;
+    z-index: 5;
+    position: relative
+}
+
+.tportfoliobg {
+    background-repeat: no-repeat;
+    background-image: url('webimg/portfoliotextbg3.jpg');
+    background-position: right bottom;
+    background-position: 95% 100%
+}
+
+.portfoliopagebutton {
+    font-family: Graphik-Regular;
+    font-size: 18px;
+    color: #fff;
+    background-color: #45baff;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #45baff
+}
+
+.portfoliopagebutton:hover {
+    background-color: #fff !important;
+    border-color: #fff;
+    color: #0181cb
+}
+
+.portfoliopagebuttonactive {
+    font-family: Graphik-Regular;
+    font-size: 18px;
+    color: #0181cb;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #fff
+}
+
+.portfoliobuttonsubhide {
+    font-family: Graphik-Light;
+    font-size: 1px;
+    color: #cfd3d3;
+    background-color: #cfd3d3;
+    border-radius: 0;
+    padding: 0;
+    border-color: #cfd3d3
+}
+
+.tportfolioheadingsub {
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    color: #2e5b44;
+    background-color: #b6e8cf;
+    border-radius: 25px;
+    padding: 10px 50px 10px 50px;
+    border-color: #45baff
+}
+
+.tportfoliopdfhead {
+    font-family: RobotoMedium;
+    color: #5f5f5f;
+    font-size: 16px
+}
+
+.tportfoliopdfsubheading {
+    font-family: RobotoRegular;
+    color: #5f5f5f;
+    font-size: 16px
+}
+
+.tportfoliopdfsubhead {
+    font-family: RobotoMedium;
+    color: #7d7d7d;
+    font-size: 14px
+}
+
+.tstar {
+    font-family: Graphik-Regular;
+    color: red;
+    font-size: 25px;
+    line-height: normal
+}
+
+.slanted {
+    background-color: #273b63;
+    height: 100px;
+    -webkit-clip-path: polygon(0 0, 0% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 0% 0, 100% 100%, 0 100%);
+    background: #273b63;
+    border: 0
+}
+
+.bannertopup {
+    position: relative;
+    z-index: 1;
+    margin-top: -100px
+}
+
+.bannertopdown {
+    position: relative;
+    z-index: 1;
+    margin-top: 99px
+}
+
+.bottombg {
+    background-repeat: no-repeat;
+    background-image: url('webimg/bottombg.png');
+    background-position: bottom right;
+    background-size: fixed
+}
+
+.tbtmhead {
+    font-family: Graphik-Regular;
+    color: #01adef;
+    font-size: 23px;
+    line-height: 28px
+}
+
+.tbtmtext1 {
+    font-family: Graphik-Light;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px
+}
+
+.tbtmtext1:hover {
+    color: #eaeaea
+}
+
+.tbtmtext2 {
+    font-family: Graphik-Light;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px
+}
+
+.tbtmtext {
+    font-family: Graphik-Light;
+    color: #fff;
+    font-size: 16px;
+    line-height: 37px
+}
+
+.tbtmtext:hover {
+    color: #eaeaea
+}
+
+.tbtmtexthover {
+    font-family: Graphik-Light;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 37px
+}
+
+.tbtmcircle {
+    font-family: Graphik-Light;
+    color: #01adef;
+    font-size: 7px;
+    line-height: 35px
+}
+
+.tbthead {
+    font-family: Graphik-Regular;
+    color: #01adef;
+    font-size: 23px;
+    line-height: 35px
+}
+
+.tbttext {
+    font-family: Graphik-Regular;
+    color: #fff;
+    font-size: 23px;
+    line-height: 35px
+}
+
+.icopyright {
+    font-family: Graphik-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff
+}
+
+.ciberimg {
+    margin-left: 9px;
+    margin-top: 6px
+}
+
+.idesign {
+    font-family: Graphik-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 19px
+}
+
+.whtsapp-icon {
+    position: fixed;
+    right: 7%;
+    bottom: 15%;
+    z-index: 20
+}
+
+.viewbutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #494949;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #494949
+}
+
+.viewbutton:hover {
+    background-color: #494949 !important;
+    border-color: #494949;
+    color: #f0f0f0
+}
+
+.submitbutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #fff;
+    background-color: #273b63;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    border-color: #273b63
+}
+
+.submitbutton:hover {
+    background-color: #0881b5 !important;
+    border-color: #0881b5;
+    color: #fff
+}
+
+.careerbutton {
+    font-family: Graphik-Light;
+    font-size: 19px;
+    color: #fff;
+    background-color: #273b63;
+    border-radius: 25px;
+    padding: 5px 20px 5px 20px;
+    border-color: #273b63
+}
+
+.careerbutton:hover {
+    background-color: #0881b5 !important;
+    border-color: #0881b5;
+    color: #fff
+}
+
+.card {
+    border: 0 solid rgba(0, 0, 0, .125);
+    border-radius: 0
+}
+
+.card-body {
+    padding: 0
+}
+
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 1px solid #f0f0f0
+}
+
+.showme {
+    display: none
+}
+
+.showhim:hover .showme {
+    display: flex
+}
+
+.showhim:hover .ok {
+    display: none
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 5px 52px 5px 0 !important
+}
+
+.nav .nav-item .nav-link {
+    color: #333;
+    font-size: 18px;
+    font-family: Graphik-Regular;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 55px;
+    padding-right: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-shadow: none !important
+}
+
+.nav .nav-item .nav-link.active,
+.nav .nav-item .nav-link:focus,
+.nav .nav-item .nav-link:hover {
+    color: #333;
+    background-color: #fff !important;
+    background: #fff !important
+}
+
+#socialicons ul {
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+#socialicons ul li {
+    list-style: none
+}
+
+#socialicons ul li a:hover {
+    color: #0881b5 !important
+}
+
+#socialicons ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: #0881b5;
+    text-align: center;
+    line-height: 39px;
+    font-size: 18px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    align-items: center;
+    justify-content: center
+}
+
+#socialicons ul li a .icon {
+    position: relative;
+    color: #fff;
+    transition: .5s;
+    z-index: 3;
+    padding: 0;
+    line-height: 39px
+}
+
+#socialicons ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg)
+}
+
+#socialicons ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: .5s;
+    z-index: 2
+}
+
+#socialicons ul li a:hover:before {
+    top: 0
+}
+
+#socialicons ul li:nth-child(1) a:before {
+    background: #3b5999
+}
+
+#socialicons ul li:nth-child(2) a:before {
+    background: #55acee
+}
+
+#socialicons ul li:nth-child(3) a:before {
+    background: rgb(0, 158, 250)
+}
+
+#socialicons ul li:nth-child(4) a:before {
+    background: #0077b5
+}
+
+#socialicons ul li:nth-child(5) a:before {
+    background: #95238e
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #000;
+    z-index: 100
+}
+
+.my-float {
+    margin-top: 16px
+}
+
+.tdwidth1 {
+    width: 20%
+}
+
+.tdwidth2 {
+    width: 80%
+}
+
+.catborder {
+    border: 1px solid #cbcbcb;
+    padding: 5px
+}
+
+.carousel-indicators {
+    position: absolute;
+    display: inline;
+    top: 30%;
+    left: 98%;
+    z-index: 15;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: hsla(0, 18%, 95%, 0);
+    border: 1px solid #0082cd;
+    border-radius: 10px;
+    background-color: #0082cd
+}
+
+.carousel-indicators .active {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: hsla(0, 18%, 95%, 0);
+    border: 1px solid #26b2e7;
+    border-radius: 10px;
+    background-color: #26b2e7
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.navbar .dropdown-menu div[class*=col] {
+    margin-bottom: 1rem
+}
+
+.navbar .dropdown-menu {
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    background-color: #fff !important;
+    font-size: 14px;
+    font-family: Graphik-Regular;
+    color: #3f3f3f
+}
+
+.navtext {
+    color: #494949 !important;
+    font-size: 18px;
+    font-family: Graphik-Regular;
+    text-decoration: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-shadow: none !important
+}
+
+.navtext.active,
+.navtext.focus,
+.navtext.hover,
+.navtext:active,
+.navtext:focus,
+.navtext:hover {
+    color: #494949 !important;
+    background-color: transparent !important;
+    background: 0 0 !important
+}
+
+.navtext.active,
+.navtext.focus,
+.navtext.hover,
+.navtext:active,
+.navtext:focus,
+.navtext:hover {
+    color: #494949 !important;
+    background-color: transparent !important;
+    background: 0 0 !important
+}
+
+@media screen and (min-width:992px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .navbar .nav-item {
+        padding: 0;
+        margin: 0
+    }
+
+    .navbar .dropdown {
+        position: static
+    }
+
+    .navbar .dropdown-menu {
+        left: 0;
+        right: 0;
+        top: 40px;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity .3s linear
+    }
+
+    .navbottomborder {
+        border-width: 1px;
+        border-bottom-style: dashed;
+        border-bottom-color: #dfdfdf
+    }
+
+    .navbar .dropdown .dropdown-menu:hover,
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity .3s linear
+    }
+
+    .navbar .dropdown-menu {
+        border-width: 1px 1px 1px 1px;
+        border-color: #ebebeb;
+        border-style: solid;
+        background-color: #fff
+    }
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0)
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #1bade0;
+    text-decoration: none;
+    background-color: #fff
+}
+
+.dropdown-item:hover {
+    color: #1bade0;
+    text-decoration: none;
+    background-color: #fff
+}
+
+.dropdown-item2.active,
+.dropdown-item2:active {
+    color: #1bade0;
+    text-decoration: none;
+    background-color: #fff
+}
+
+.dropdown-item2:hover {
+    color: #1bade0;
+    text-decoration: none;
+    background-color: #fff
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    clear: both;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Graphik-Regular;
+    color: #767676 !important;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 0;
+    margin: 10px 10px 5px 0
+}
+
+.dropdown-item2 {
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    clear: both;
+    font-size: 14px;
+    font-family: Graphik-Regular;
+    color: #fff !important;
+    text-align: inherit;
+    white-space: nowrap;
+    border: 0;
+    line-height: 29px;
+    margin: 10px 10px 5px 0
+}
+
+.dropdown-menu {
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.dropdown-menu ul li {
+    padding-bottom: 15px;
+    list-style-type: none
+}
+
+.dropdown-menu ul li.active,
+.dropdown-menu ul li:hover {
+    color: #d10024;
+    list-style-type: none
+}
+
+.dropdown-toggle::after {
+    display: none
+}
+
+.mh-head {
+    background: #fff !important;
+    color: #494949 !important
+}
+
+.mh-text {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.mh-head .hamburger-inner,
+.mh-head .hamburger-inner:after,
+.mh-head .hamburger-inner:before {
+    background: #0580ce
+}
+
+.mm-navbar__title {
+    color: #fff !important
+}
+
+.mm-navbar {
+    min-height: 44px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background: #0580ce
+}
+
+.mm-listitem {
+    color: #fff
+}
+
+.mm-menu {
+    background: #0580ce !important;
+    border-color: rgba(0, 0, 0, .1);
+    color: #fff
+}
+
+.mm-listview {
+    font: inherit;
+    line-height: 24px
+}
+
+.mm-panel,
+.mm-panels {
+    background: #0580ce;
+    border-color: inherit;
+    box-sizing: border-box;
+    margin: 0
+}
+
+@media (min-width:1500px) {
+    .container {
+        max-width: 1440px !important
+    }
+}
+
+@media (min-width:1600px) {
+    .container {
+        max-width: 1500px !important
+    }
+}
+
+@media (min-width:1700px) {
+    .container {
+        max-width: 1660px !important
+    }
+}
+
+@media only screen and (min-device-width :1200px) and (max-device-width :1700px) {
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/websitedesigning.jpg');
+        background-position: left center;
+        background-size: 50%
+    }
+}
+
+@media only screen and (min-device-width :1601px) and (max-device-width :1699px) {
+    .tbtmtext2 {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-device-width :1500px) and (max-device-width :1600px) {
+    .tbtmtext2 {
+        font-size: 14px
+    }
+
+    .menuleft {
+        margin-left: -250px
+    }
+
+    .navtext {
+        font-size: 15px
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 28px 5px 0 !important
+    }
+
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/websitedesigning.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .whtsapp-icon {
+        position: fixed;
+        right: 15%;
+        bottom: 15%;
+        z-index: 20
+    }
+}
+
+@media only screen and (min-device-width :1400px) and (max-device-width :1499px) {
+    .tbtmtext2 {
+        font-size: 12px
+    }
+
+    .menuleft {
+        margin-left: -250px
+    }
+}
+
+@media only screen and (min-device-width :1300px) and (max-device-width :1399px) {
+    .tbtmtext2 {
+        font-size: 12px
+    }
+
+    .menuleft {
+        margin-left: -200px
+    }
+}
+
+@media only screen and (min-device-width :1200px) and (max-device-width :1299px) {
+    .tbtmtext2 {
+        font-size: 12px
+    }
+
+    .menuleft {
+        margin-left: -250px
+    }
+}
+
+@media only screen and (min-device-width :1200px) and (max-device-width :1499px) {
+    .whtsapp-icon {
+        position: fixed;
+        right: 7%;
+        bottom: 15%;
+        z-index: 20
+    }
+
+    .navtext {
+        font-size: 15px
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 28px 5px 0 !important
+    }
+
+    .tsersubbheadinn08 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn08-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn09 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn09-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn10 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn10-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn11 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn11-1 {
+        font-size: 27px
+    }
+
+    .tbtmtext {
+        font-size: 14px
+    }
+
+    .tbtmtexthover {
+        font-size: 14px
+    }
+
+    .aboutustextbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/aboutustext01.png');
+        background-position: right center;
+        background-size: fixed;
+        margin-top: -80px
+    }
+
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/websitedesigning.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+}
+
+@media only screen and (min-device-width :1200px) and (max-device-width :1440px) {
+    .twelcomehead {
+        font-size: 38px
+    }
+
+    .twelcomesubhead {
+        font-size: 38px
+    }
+
+    .twelcometextblue {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twelcometext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .aboutusbgin {
+        background-repeat: no-repeat;
+        background-image: url('webimg/aboutustextin01.png');
+        background-position: right center;
+        background-size: fixed
+    }
+
+    .servicesbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg2.png');
+        background-position: right center;
+        background-size: fixed
+    }
+
+    .servicestopup {
+        position: relative;
+        z-index: 1;
+        margin-top: -194px
+    }
+
+    .servicescontenttopup {
+        margin-top: 215px
+    }
+
+    .viewbutton {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px
+    }
+
+    .tserviceshead {
+        font-size: 38px
+    }
+
+    .tservicessubhead {
+        font-size: 38px
+    }
+
+    .tservicestext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .tserhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .cont0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .portfoliobg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/portfoliotextbg2.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tportfoliohead {
+        font-size: 38px
+    }
+
+    .tportfoliosubhead {
+        font-size: 38px
+    }
+
+    .tportfoliotext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twhychoosehead {
+        font-size: 38px
+    }
+
+    .t1whychoosesubhead {
+        font-size: 38px
+    }
+
+    .twhychoosegtext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twhychoosesubhead {
+        font-size: 18px
+    }
+
+    .twhychoosetext {
+        font-size: 15px;
+        line-height: 23px
+    }
+}
+
+@media only screen and (min-device-width :1024px) and (max-device-width :1199px) {
+    .hidelinks {
+        display: none
+    }
+
+    .navtext {
+        font-size: 15px
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 40px 5px 0 !important
+    }
+
+    .dropdown-item {
+        font-size: 15px
+    }
+
+    .menuwidth {
+        width: 320px
+    }
+
+    .menuwidth01 {
+        width: 350px
+    }
+
+    .tsersubbheadinn08 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn08-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn09 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn09-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn10 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn10-1 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn11 {
+        font-size: 27px
+    }
+
+    .tsersubbheadinn11-1 {
+        font-size: 27px
+    }
+
+    .twelcomehead {
+        font-size: 38px
+    }
+
+    .twelcomesubhead {
+        font-size: 38px
+    }
+
+    .twelcometextblue {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twelcometext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .theading {
+        font-size: 32px
+    }
+
+    .theadingsub {
+        font-size: 32px
+    }
+
+    .ttextwhite {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .servicesbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg2.png');
+        background-position: right center;
+        background-size: fixed
+    }
+
+    .servicestopup {
+        position: relative;
+        z-index: 1;
+        margin-top: -207px
+    }
+
+    .servicescontenttopup {
+        margin-top: 195px
+    }
+
+    .viewbutton {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px
+    }
+
+    .tserviceshead {
+        font-size: 38px
+    }
+
+    .tservicessubhead {
+        font-size: 38px
+    }
+
+    .tservicestext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .tserhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tserhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .cont0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .tportfoliohead {
+        font-size: 38px
+    }
+
+    .tportfoliosubhead {
+        font-size: 38px
+    }
+
+    .tportfoliotext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .portfoliobg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/portfoliotextbg2.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .twhychoosehead {
+        font-size: 38px
+    }
+
+    .t1whychoosesubhead {
+        font-size: 38px
+    }
+
+    .twhychoosegtext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twhychoosesubhead {
+        font-size: 18px
+    }
+
+    .twhychoosetext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .ttextdblue {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .ttext {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .portfoliobutton {
+        font-size: 15px
+    }
+
+    .ulpadding {
+        padding-left: 30px
+    }
+
+    .hidelinedot {
+        display: none !important
+    }
+
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/websitedesigning.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tserheadinn01 {
+        font-size: 33px
+    }
+
+    .tblogmainhead {
+        font-size: 33px
+    }
+
+    .tblogsubhead {
+        font-size: 23px
+    }
+
+    .tsersubheadinn01 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn01 {
+        font-size: 25px
+    }
+
+    .tserheadinn02 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn02 {
+        font-size: 33px
+    }
+
+    .servicesbginn02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/ecommerce.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn02 {
+        font-size: 25px
+    }
+
+    .portfoliobutton02 {
+        font-size: 15px
+    }
+
+    .ttextgreen {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tsersubbheadinn202 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn02-1 {
+        font-size: 25px
+    }
+
+    .servicesline02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/blank.png');
+        background-position: center right;
+        background-size: fixed
+    }
+
+    .tserheadinn03 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn03 {
+        font-size: 33px
+    }
+
+    .servicesbginn03 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/amc.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn03 {
+        font-size: 25px
+    }
+
+    .portfoliobutton03 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn203 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn03-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn04 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn04 {
+        font-size: 33px
+    }
+
+    .servicesbginn04 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/seo.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn04 {
+        font-size: 25px
+    }
+
+    .portfoliobutton04 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn05 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn05 {
+        font-size: 33px
+    }
+
+    .servicesbginn05 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/ebrochures.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn05 {
+        font-size: 25px
+    }
+
+    .portfoliobutton05 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn06 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn06 {
+        font-size: 33px
+    }
+
+    .servicesbginn06 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/hosting.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn06 {
+        font-size: 25px
+    }
+
+    .portfoliobutton06 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn206 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn07 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn07 {
+        font-size: 33px
+    }
+
+    .servicesbginn07 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/crm.jpg');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn07 {
+        font-size: 25px
+    }
+
+    .portfoliobutton07 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn207 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn07-1 {
+        font-size: 25px
+    }
+}
+
+@media only screen and (min-device-width :768px) and (max-device-width :1023px) {
+    .container {
+        max-width: 100%
+    }
+
+    .dropdown-item {
+        font-size: 14px
+    }
+
+    .menuwidth {
+        width: 350px
+    }
+
+    .menuwidth01 {
+        width: 350px
+    }
+
+    .iconwidth {
+        max-width: 70%
+    }
+
+    .hidelinks {
+        display: none
+    }
+
+    .navtext {
+        font-size: 15px
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 33px 5px 0 !important
+    }
+
+    .twelcomehead {
+        font-size: 32px
+    }
+
+    .twelcomesubhead {
+        font-size: 32px
+    }
+
+    .twelcometextblue {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twelcometext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .theading {
+        font-size: 32px
+    }
+
+    .theadingsub {
+        font-size: 32px
+    }
+
+    .ttextwhite {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .aboutustextbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg1.png');
+        background-position: left center;
+        background-size: fixed
+    }
+
+    .servicesbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg1.png');
+        background-position: top right;
+        background-size: fixed
+    }
+
+    .viewbutton {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px
+    }
+
+    .tserviceshead {
+        font-size: 32px
+    }
+
+    .tservicessubhead {
+        font-size: 32px
+    }
+
+    .tservicestext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .servicestopup {
+        position: relative;
+        z-index: 1;
+        margin-top: -323px
+    }
+
+    .tsersubbheadinn08 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn08-1 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn09 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn09-1 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn10 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn10-1 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn11 {
+        font-size: 21px
+    }
+
+    .tsersubbheadinn11-1 {
+        font-size: 21px
+    }
+
+    .servicesbg01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob01.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob02.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg03 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob03.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg04 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob04.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg05 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob05.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg06 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob06.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .cont0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .tportfoliohead {
+        font-size: 32px
+    }
+
+    .tportfoliosubhead {
+        font-size: 32px
+    }
+
+    .tportfoliotext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .portfoliobg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/portfoliotextbg2.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .twhychoosehead {
+        font-size: 38px
+    }
+
+    .t1whychoosesubhead {
+        font-size: 38px
+    }
+
+    .twhychoosegtext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twhychoosesubhead {
+        font-size: 18px
+    }
+
+    .twhychoosetext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .whychooseline01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/blank.png');
+        background-position: right top;
+        background-size: fixed;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .tbtmhead {
+        font-size: 20px;
+        line-height: 50px
+    }
+
+    .tbtmtext1 {
+        font-size: 14px;
+        line-height: 21px
+    }
+
+    .tbthead {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .tbtmtexthover {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .tbtmtext {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .icopyright {
+        font-size: 12px
+    }
+
+    .ttextdblue {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .ttext {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .portfoliobutton {
+        font-size: 15px
+    }
+
+    .ulpadding {
+        padding-left: 30px
+    }
+
+    .tserheadinn01 {
+        font-size: 33px
+    }
+
+    .tblogmainhead {
+        font-size: 33px
+    }
+
+    .tblogsubhead {
+        font-size: 23px
+    }
+
+    .tsersubheadinn01 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn01 {
+        font-size: 25px
+    }
+
+    .tserheadinn02 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn02 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn02 {
+        font-size: 25px
+    }
+
+    .portfoliobutton02 {
+        font-size: 15px
+    }
+
+    .ttextgreen {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tsersubbheadinn202 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn02-1 {
+        font-size: 25px
+    }
+
+    .servicesline02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/blank.png');
+        background-position: center right;
+        background-size: fixed
+    }
+
+    .tserheadinn03 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn03 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn03 {
+        font-size: 25px
+    }
+
+    .portfoliobutton03 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn203 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn03-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn04 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn04 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn04 {
+        font-size: 25px
+    }
+
+    .portfoliobutton04 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn05 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn05 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn05 {
+        font-size: 25px
+    }
+
+    .portfoliobutton05 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn06 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn06 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn06 {
+        font-size: 25px
+    }
+
+    .portfoliobutton06 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn206 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn07 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn07 {
+        font-size: 33px
+    }
+
+    .tsersubbheadinn07 {
+        font-size: 25px
+    }
+
+    .portfoliobutton07 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn207 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn07-1 {
+        font-size: 25px
+    }
+
+    .tportfoliobg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/portfoliotextbg3-01.jpg');
+        background-position: right bottom;
+        background-position: 95% 100%
+    }
+}
+
+@media only screen and (min-device-width :768px) and (max-device-width :991px) {
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn02 {
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn03 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn04 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn05 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn06 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn07 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn08 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn09 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn10 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn11 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tportfolioheading {
+        font-size: 33px
+    }
+
+    .tportfoliosubheading {
+        font-size: 33px
+    }
+
+    .tportfoliotextp {
+        font-size: 17px
+    }
+
+    .tportfoliobg {
+        background-repeat: no-repeat;
+        background-image: none;
+        background-position: right bottom;
+        background-position: 95% 100%
+    }
+
+    .tportfolioheadingsub {
+        font-size: 15px
+    }
+
+    .tportfoliopdfhead {
+        font-size: 14px
+    }
+
+    .tportfoliopdfsubheading {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-device-width :576px) and (max-device-width :767px) {
+    .container {
+        max-width: 100%
+    }
+}
+
+@media only screen and (min-device-width :320px) and (max-device-width :585px) {
+    #mobdivbox {
+        padding: 20px
+    }
+
+    #mobdivbox .col {
+        border: 1px solid #c9c9c9
+    }
+
+    #mobdivbox .col:not(:last-child) {
+        border-right-width: 0
+    }
+
+    #mobdivbox .row:not(:last-child) .col {
+        border-bottom-width: 0
+    }
+
+    .twhiteslider {
+        font-size: 17px
+    }
+
+    .boxpadding {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+.phone-icon {
+    position: fixed;
+    right: 2%;
+    bottom: 15%;
+    z-index: 20
+}
+
+
+
+
+@media only screen and (min-device-width :320px) and (max-device-width :767px) {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        padding-right: 6px !important;
+        padding-left: 6px !important
+    }
+
+    .body {
+        font-size: 14px !important
+    }
+
+    .fatogglemenu {
+        width: 0;
+        height: 0;
+        padding-top: 12px;
+        text-align: center
+    }
+
+    .fa:hover {
+        opacity: .7
+    }
+
+    .moblogo {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .twelcomehead {
+        font-size: 32px
+    }
+
+    .twelcomesubhead {
+        font-size: 32px
+    }
+
+    .twelcometextblue {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twelcometext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .aboutustextbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg1.png');
+        background-position: left center;
+        background-size: fixed
+    }
+
+    .servicesbginn08 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn08 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn08-1 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn09 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn09-1 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn10 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn10-1 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn11 {
+        font-size: 22px
+    }
+
+    .tsersubbheadinn11-1 {
+        font-size: 22px
+    }
+
+    .servicesbginn09 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn10 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbginn11 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .servicesbg {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbg1.png');
+        background-position: top right;
+        background-size: fixed
+    }
+
+    .viewbutton {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px
+    }
+
+    .tserviceshead {
+        font-size: 32px
+    }
+
+    .tservicessubhead {
+        font-size: 32px
+    }
+
+    .tservicestext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .theading {
+        font-size: 32px
+    }
+
+    .theadingsub {
+        font-size: 32px
+    }
+
+    .ttextwhite {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .servicesbg01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob01.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead01 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext01 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tblogmainhead {
+        font-size: 33px
+    }
+
+    .tblogsubhead {
+        font-size: 23px
+    }
+
+    .servicesbg02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob02.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead02 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext02 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg03 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob03.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead03 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext03 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg04 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob04.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead04 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext04 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg05 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob05.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead05 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext05 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .servicesbg06 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesmob06.png');
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .tserhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubhead06 {
+        font-size: 28px;
+        line-height: 20px
+    }
+
+    .tsersubtext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .tsertext06 {
+        font-size: 15px;
+        line-height: 20px
+    }
+
+    .cont0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .tportfoliohead {
+        font-size: 32px
+    }
+
+    .tportfoliosubhead {
+        font-size: 32px
+    }
+
+    .tportfoliotext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .portfoliobg {
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: fixed
+    }
+
+    .twhychoosehead {
+        font-size: 27px
+    }
+
+    .t1whychoosesubhead {
+        font-size: 27px
+    }
+
+    .twhychoosegtext {
+        font-size: 17px;
+        line-height: 28px
+    }
+
+    .twhychoosesubhead {
+        font-size: 18px
+    }
+
+    .twhychoosetext {
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .whychooseline01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/blank.png');
+        background-position: right top;
+        background-size: fixed;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .tbtmhead {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .tbtmtext1 {
+        font-size: 14px;
+        line-height: 21px
+    }
+
+    .tbthead {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .tbtmtexthover {
+        font-size: 14px;
+        line-height: 2px
+    }
+
+    .tbtmtext {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .icopyright {
+        font-size: 12px
+    }
+
+    .hideelementsmobile {
+        display: none !important
+    }
+
+    .ttextdblue {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .ttext {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .portfoliobutton {
+        font-size: 15px
+    }
+
+    .ulpadding01 {
+        padding-left: 18px
+    }
+
+    .ulpadding {
+        padding-left: 30px
+    }
+
+    .tserheadinn01 {
+        font-size: 33px
+    }
+
+    .tblogmainhead {
+        font-size: 33px
+    }
+
+    .tblogsubhead {
+        font-size: 23px
+    }
+
+    .tsersubheadinn01 {
+        font-size: 33px
+    }
+
+    .servicesbginn01 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn01 {
+        font-size: 25px
+    }
+
+    .tserheadinn02 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn02 {
+        font-size: 33px
+    }
+
+    .servicesbginn02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn02 {
+        font-size: 25px
+    }
+
+    .portfoliobutton02 {
+        font-size: 15px
+    }
+
+    .ttextgreen {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tsersubbheadinn202 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn02-1 {
+        font-size: 25px
+    }
+
+    .servicesline02 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/blank.png');
+        background-position: center right;
+        background-size: fixed
+    }
+
+    .tserheadinn03 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn03 {
+        font-size: 33px
+    }
+
+    .servicesbginn03 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn03 {
+        font-size: 25px
+    }
+
+    .portfoliobutton03 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn203 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn03-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn04 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn04 {
+        font-size: 33px
+    }
+
+    .servicesbginn04 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn04 {
+        font-size: 25px
+    }
+
+    .portfoliobutton04 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn05 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn05 {
+        font-size: 33px
+    }
+
+    .servicesbginn05 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn05 {
+        font-size: 25px
+    }
+
+    .portfoliobutton05 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn204 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn06 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn06 {
+        font-size: 33px
+    }
+
+    .servicesbginn06 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn06 {
+        font-size: 25px
+    }
+
+    .portfoliobutton06 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn206 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn04-1 {
+        font-size: 25px
+    }
+
+    .ttextviolet {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .tserheadinn07 {
+        font-size: 33px
+    }
+
+    .tsersubheadinn07 {
+        font-size: 33px
+    }
+
+    .servicesbginn07 {
+        background-repeat: no-repeat;
+        background-image: url('webimg/servicesbginn.png');
+        background-position: left center;
+        background-size: 45%
+    }
+
+    .tsersubbheadinn07 {
+        font-size: 25px
+    }
+
+    .portfoliobutton07 {
+        font-size: 15px
+    }
+
+    .tsersubbheadinn207 {
+        font-size: 25px
+    }
+
+    .tsersubbheadinn07-1 {
+        font-size: 25px
+    }
+
+    .tportfolioheading {
+        font-size: 33px
+    }
+
+    .tportfoliosubheading {
+        font-size: 33px
+    }
+
+    .tportfoliotextp {
+        font-size: 17px
+    }
+
+    .tportfoliobg {
+        background-repeat: no-repeat;
+        background-image: none;
+        background-position: right bottom;
+        background-position: 95% 100%
+    }
+
+    .tportfolioheadingsub {
+        font-size: 15px
+    }
+
+    .tportfoliopdfhead {
+        font-size: 14px
+    }
+
+    .tportfoliopdfsubheading {
+        font-size: 14px
+    }
+
+    .phone-icon {
+        right: 7%;
+        bottom: 25%;
+    }
